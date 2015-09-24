@@ -37,6 +37,9 @@ public class MapGenerator : MonoBehaviour
         {
             SmoothMap();
         }
+
+        MeshGenerator meshGen = GetComponent<MeshGenerator>();
+        meshGen.GenerateMesh(map,1);
     }
 
     void RandomFillMap()
@@ -106,6 +109,7 @@ public class MapGenerator : MonoBehaviour
 
     void OnDrawGizmos()
     {
+        /*
         if (map != null)
         {
             for (int x = 0; x < width; x++)
@@ -118,5 +122,6 @@ public class MapGenerator : MonoBehaviour
                 }
             }
         }
+        */
     }
 }

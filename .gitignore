@@ -273,3 +273,4 @@ _Pvt_Extensions
 *.pidb
 *.resources
 test-results/
+/Assets/UnityVS/Editor
