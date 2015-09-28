@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   width: 70
-  height: 40
+  height: 70
   seed: 
   useRandomSeed: 1
   randomFillPercent: 45
